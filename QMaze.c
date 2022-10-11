@@ -117,7 +117,7 @@ int main(void)
 	       "                                                                                                         "
 		   "|                            |\n");
 	printf("                                                                                                         ");
-	printf("|�ȱ�� �����вʵ�(Cake Cake)|\n");
+	printf("|先别关 后面有彩蛋(Cake Cake)|\n");
 	printf("                                                                                                         ------------------------------");
 	Sleep(15000);
 	system("cls");
@@ -126,7 +126,7 @@ int main(void)
 		if(i%2==0)system("color 0a");
 		else system("color 0d");
 		printf("                                                                                                        Happy Birthday!\n"
-		       "                                                                                                           С����\n");
+		       "                                                                                                           小蛋糕\n");
 		printf(
 		   "                                                                                                            o o o \n"
  		   "                                                                                                             o o o \n"			
@@ -141,7 +141,7 @@ int main(void)
 		printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 		system("color 09");
 		printf("                                                                                                        Happy Birthday!\n"
-		       "                                                                                                           С����\n");
+		       "                                                                                                           小蛋糕\n");
 		printf(
 		   "                                                                                                            o o o \n"
  		   "                                                                                                           o o o \n"			
@@ -154,9 +154,9 @@ int main(void)
 		Sleep(1000);
 		system("cls");
 	}
-	//��ʵ��δ��뻹�кö������ĵط�������������öһ�������������ͻ��һЩ����ʲô�ģ����������Ժ�����ٿ���һ��
-	//�����Ϸ������֮ǰ����˵���Ǳ�����ѧ����һЩ���룬Ȼ���Լ�д��С��Ϸ����֪���㻹�ǵ��Ҹ���˵��û���ֶ������� 
-	//system("shutdown -s -t 50");[����д���ļ��ȱ���� Ȼ���������������δ��� ���ֶ���Ц��]
+	//其实这段代码还有好多可以玩的地方，比如可以设置兑换奖励、开宝箱和获得一些技能什么的，哈哈哈，以后可以再开发一下
+	//这个游戏就是我之前跟你说的那本书上学来的一些代码，然后自己写的小游戏，不知道你还记得我给你说过没【手动捂脸】 
+	//system("shutdown -s -t 50");[把你写的文件先保存好 然后你可以再试试这段代码 【手动坏笑】]
 
     return 0;
 }
